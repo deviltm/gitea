@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gitea_1689600865021-pr-trigger-input-set
+  identifier: Build_gitea_1689600865021prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gitea_1689600865021
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
